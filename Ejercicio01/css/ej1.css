@@ -1,5 +1,17 @@
 body{
-    width: 1000px;
-    margin: auto auto;
+    width: 750px;
+    margin: auto;
 }
 
+.shadow-box {
+    width: 800px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(218, 234, 248);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+
+}
