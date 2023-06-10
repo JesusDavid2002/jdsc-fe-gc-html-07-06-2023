@@ -1,0 +1,32 @@
+.menu{
+    background-color: rgb(247, 247, 212);
+    width: 600px;
+    height: auto;
+    font-size: large;
+}
+
+h1{
+    background-color: rgb(247, 247, 95);
+    font-size: 30px;
+    color: rgb(116, 115, 115);
+}
+
+h2{
+    color: rgb(104, 104, 218);
+    font-style: italic;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    color: rgb(66, 69, 245);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+ul{
+    list-style: none;
+}
+
+em{
+    color: rgb(104, 104, 218);
+}
