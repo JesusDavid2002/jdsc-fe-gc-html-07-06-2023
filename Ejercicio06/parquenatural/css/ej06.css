@@ -1,19 +1,5 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.cabecera{
-    width: 1000px;
-    border: 10px solid rgb(209, 207, 207);
-    border-bottom: 20px solid rgb(209, 207, 207);
-    align-content: center;   
-}
-
-.parque{
-    width: 900px;
-    border: 1px solid grey;
-    padding: 20px;
-    margin: 20px;
-    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
 h1{
@@ -33,3 +19,45 @@ h3{
 b{
     color: rgb(14, 160, 14);
 }
+
+i{
+    font-size: smaller;
+    color: rgb(184, 182, 182);
+}
+
+.cabecera{
+    width: 900px;
+    border: 10px solid rgb(209, 207, 207);
+    border-bottom: 20px solid rgb(209, 207, 207);
+    margin: 0px auto;
+}
+
+.parque{
+    width: 800px;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 2px 15px rgb(153, 153, 153); 
+}
+
+li{
+    width: 100px;
+    border: 0.5px rgb(153, 153, 153) solid;
+    background:linear-gradient(to bottom, transparent 0%,rgb(224, 252, 197) 70%, rgb(146, 204, 110) 100%);
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+li:hover{
+    background: linear-gradient(to bottom, transparent 0%, rgb(250, 220, 185) 70%, rgb(248, 175, 91) 100%);;
+}
+
+/* Esta clase es del ejercicio 8*/
+.reajuste{
+    display: flex; 
+    margin-top: -30px;
+}
+
