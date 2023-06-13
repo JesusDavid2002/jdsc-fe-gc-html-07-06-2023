@@ -2,6 +2,22 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
+#container{
+    width: 900px;
+    border: 10px solid rgb(209, 207, 207);
+    border-bottom: 20px solid rgb(209, 207, 207);
+    margin: 0px auto;
+}
+
+.parque{
+    width: 800px;
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 5px 5px 0px rgb(153, 153, 153), inset 0px -5px 5px 0px rgb(153, 153, 153); 
+}
+
 h1{
     color: rgb(207, 136, 3);
     text-align: center;
@@ -25,31 +41,25 @@ i{
     color: rgb(184, 182, 182);
 }
 
-.cabecera{
-    width: 900px;
-    border: 10px solid rgb(209, 207, 207);
-    border-bottom: 20px solid rgb(209, 207, 207);
-    margin: 0px auto;
+a{
+    color: black;
+    text-decoration: none;
 }
 
-.parque{
-    width: 800px;
-    border: 1px solid grey;
-    padding: 20px;
-    margin: 20px;
-    margin-bottom: 10px;
-    box-shadow: inset 0px 2px 15px rgb(153, 153, 153); 
+.footerurl{
+    color: rgb(184, 182, 182);
 }
 
 li{
     width: 100px;
+    padding: 5px;
+    margin: 5px;
     border: 0.5px rgb(153, 153, 153) solid;
     background:linear-gradient(to bottom, transparent 0%,rgb(224, 252, 197) 70%, rgb(146, 204, 110) 100%);
     text-align: center;
     list-style: none;
-    padding: 5px;
-    margin: 5px;
 }
+
 
 li:hover{
     background: linear-gradient(to bottom, transparent 0%, rgb(250, 220, 185) 70%, rgb(248, 175, 91) 100%);;
